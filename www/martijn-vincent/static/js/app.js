@@ -1,6 +1,6 @@
 (function () {
 	'use strict';
-
+	// swag
 	var exercise = null;
 
     var sensors = {
