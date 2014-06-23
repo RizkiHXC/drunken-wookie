@@ -46,7 +46,6 @@ Exercise.prototype.startWatch = function() {
 	self.setTimeoutNextBreakpoint();
 	console.log('Starting watch');
 	self.exerciseIntervals.watchExercise = setInterval(function() {
-		console.log("I'm Batman!");
 		var inBounds = self.checkIfInBounds();
 		if(!inBounds) {
 			self.vibrate(250);
